@@ -1,0 +1,14 @@
+.bus{
+     width:500px;
+    text-align: center;
+    border: 1px solid darksalmon;
+    margin: 20px;
+    padding: 10px;
+   
+}
+
+label{
+    color:green;
+    width:20px;
+    padding-right: 10px;
+}

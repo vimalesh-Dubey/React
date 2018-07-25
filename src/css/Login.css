@@ -1,0 +1,54 @@
+.loginform{
+    margin:  auto;
+    width: 30%;
+    height:50vh;
+    margin-top:10%; 
+     /* border: 1px solid black; */
+    box-sizing: border-box;
+    background: rgba(0,0,0,0.3);
+    padding-top: 9%;
+    text-align: center;
+}
+
+.loginform p{
+    padding: 0;
+    margin: 0;
+    font-weight: bold;
+    color:white;
+}
+
+.loginform input[type=text], .loginform input[type=password]{
+    height: 30px;
+    margin-bottom: 5%;
+    width: 50%;
+    background:transparent; 
+    border:none;
+    outline: none;
+    border-bottom:1px solid blue;
+    font-size: 15px;
+    color:black;;
+    
+}
+
+.loginform input[type=submit]{
+ 
+    /* width:40px; */
+    height:40px;
+    width:40%;
+    background: tomato;
+    border-radius: 20px;
+    outline: none;
+    cursor: pointer;
+
+}
+
+.loginform input[type=submit]:hover{
+    background: cyan;
+
+}
+
+.loginform a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
